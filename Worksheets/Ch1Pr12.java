@@ -19,4 +19,7 @@ public class Ch1Pr12 {
 			
 	}
 }
-
+/*
+Input number of steps, starting point and increment for the sequence: 4 3 2
+3 5 7 9
+*/
