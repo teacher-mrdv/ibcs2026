@@ -13,17 +13,19 @@ public class MockQ1 {
 				System.out.println("Error! input again");
 			}
 		} while(number < 1 || number >= 10);
+		
 		for(int i = 1; i <= number; i++) {
 			int square = (i*i);
 			System.out.print(i);
 			if(square < 10) {
 				System.out.print(" ");
 			}
-			System.out.print(" " + (i*i));
+			System.out.print(" " + square);
 			int power = 1;
 			for(int j = 0; j < i; j++) {
 				power = power * number;
 			}
+			
 			int countDigits = 0;
 			int n = power;
 			while(n > 0) {
