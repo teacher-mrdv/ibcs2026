@@ -25,12 +25,14 @@ public class MockQ1 {
 				power = power * number;
 			}
 			int countDigits = 0;
-			int n = number;
+			int n = power;
 			while(n > 0) {
 				n = n / 10;
 				countDigits++;
 			}
-			for(int s = 0; s < 11 countDigits
+			for(int s = 0; s < 11-countDigits; s++) {
+				System.out.print(" ");
+			}
 			System.out.println(power);
 		}
 	}
